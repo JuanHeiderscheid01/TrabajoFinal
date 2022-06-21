@@ -200,7 +200,7 @@ align-items: flex-end;
 .container-footer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 10vh;
     background-color: blueviolet;
 }
@@ -211,3 +211,20 @@ align-items: flex-end;
     font-size:  20px;
     margin: 5px;
 }
+
+@media (win-width: 720px){
+    header{
+        position:fixed
+        width: 100%;
+    }
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header. nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+}
+    
