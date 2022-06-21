@@ -253,11 +253,11 @@ align-items: flex-end;
     }
 
     #somos-laesme .img-container{
-        background-image: url("imagenes/inicio03.jpg");
+        background-image: url("imagenes/somoslaesme02.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
-        width: 400px; 
+        width: 900px; 
     }
 
     #nuestros-campeones .programas{
@@ -293,7 +293,7 @@ align-items: flex-end;
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/inicio04.jpg");
+        ,url("imagenes/bidone7.jpg");
 
     }
 
@@ -303,7 +303,7 @@ align-items: flex-end;
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/inicio04.jpg");
+        ,url("imagenes/calce.jpg");
     }
 
     .carta:nth-child(3){
@@ -312,12 +312,12 @@ align-items: flex-end;
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/inicio04.jpg");
+        ,url("imagenes/prohibidonotocar.jpg");
 
     }
 
     #caracteristicas{
-        background-image: url("imagenes/inicio04.jpg");
+        background-image: url("imagenes/imagenfinal.jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
