@@ -171,6 +171,7 @@ padding: 200px 12px;
 }
 
 #final{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,11 +199,13 @@ align-items: flex-end;
 }
 
 .container-footer{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 10vh;
     background-color: blueviolet;
+    z-index: 100;
 }
 
 .footer__socials i{
@@ -257,7 +260,7 @@ align-items: flex-end;
         background-size: cover;
         background-position: center center;
         height: 500px;
-        width: 900px; 
+        width: 1500px; 
     }
 
     #nuestros-campeones .programas{
@@ -278,7 +281,7 @@ align-items: flex-end;
         margin-top: 0;
     }
 
-    #nuestros-campeones .carta{
+    .carta{
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
@@ -349,4 +352,29 @@ align-items: flex-end;
         background-position-x: calc(100vw - 800px);
     }
 }
-    
+
+.info{
+    display: none;
+    padding: 30px;
+}
+
+.mostrar{
+    display: block;
+    transition: 1s;
+}
+
+
+/*.info{
+    position: absolute;
+    top: 100%;
+    transition: 1s;
+}
+
+.mostrar{
+    top: 80%;
+    transition: 1s;
+}
+
+.test{
+    z-index: 2;
+}*/
