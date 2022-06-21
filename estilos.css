@@ -122,7 +122,9 @@ text-align: center;
 }
 
 nuestros-campeones .carta{
-
+background-position: center center;
+background-size: cover;
+padding: 1px;
 }
 
 .carta:first-child{
@@ -132,7 +134,6 @@ nuestros-campeones .carta{
         rgba(0,0,0,0.5)
     )
     ,url("imagenes/bidone7.jpg")
-
 }
 
 .carta:nth-child(2){
